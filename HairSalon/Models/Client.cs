@@ -7,6 +7,6 @@ namespace HairSalon.Models
     public int ClientId { get; set; }
     public string ClientName { get; set; }
 
-    public Stylist Stylist { get; set; }
+    public List<Stylist> Stylists { get; set; }
   }
 }
